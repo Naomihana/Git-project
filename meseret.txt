@@ -1,8 +1,13 @@
- mkdir GitBasicsProject
- cd GitBasicsProject/
+mkdir GitBasicsProject
+cd GitBasicsProject/
  git init
 mkdir Config Src
 touch Config/app.config
 touch settings.json
 touch .gitignore
 touch src/index.html
+git add .
+ git commit -m "This is my initial commit"
+ git remote add origin https://github.com/Naomihana/Git-project.git
+ git branch -M main
+ git push -u origin main
