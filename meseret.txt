@@ -1,0 +1,8 @@
+ mkdir GitBasicsProject
+ cd GitBasicsProject/
+ git init
+mkdir Config Src
+touch Config/app.config
+touch settings.json
+touch .gitignore
+touch src/index.html
